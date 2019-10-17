@@ -35,6 +35,9 @@ function App() {
           Field Goal Button</button>
            
         </div>
+        <div>  
+        <button className="awayButtons__fieldGoal" onClick = {() => setAwayScore(awayScore * 0)}>Reset HomeScore</button>
+        </div>
         <div className="awayButtons">
         <button className="awayButtons__fieldGoal" onClick = {() => setAwayScore(awayScore + 5)}>Away Touchdown</button>
           <button className="awayButtons__fieldGoal" onClick = {() => setAwayScore(awayScore + 3)}>Away 
